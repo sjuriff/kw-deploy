@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "check": "tsc --noEmit && prettier --check ."
   },
   "dependencies": {
     "ol": "^8.2.0",
