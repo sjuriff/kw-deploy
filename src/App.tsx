@@ -4,7 +4,7 @@ import './App.css'
 import "ol/ol.css"
 
 import {Map, View} from "ol"
-import { useState, MutableRefObject, useEffect, useMemo, useRef } from 'react'
+import {  MutableRefObject, useEffect, useMemo, useRef } from 'react'
 import TileLayer from 'ol/layer/Tile'
 import {OSM} from "ol/source"
 import { useGeographic } from 'ol/proj'
